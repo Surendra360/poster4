@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(115, 112, 95);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.date p{
+    
+     font-size: 16px;
+     font-weight: 300;
+}
+
+.heading{
+    font-size: 10vh;
+    font-weight: 900;
+}
+.weather{
+   display: flex;
+   justify-content: center;
+   align-items: center ;
+}
+.weather>img{
+   width: 10vh;
+}
+.weather>ul{
+    list-style: none;
+    font-weight: lighter; 
+    font-size: 13px;  
+}
+
+.date{
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: peru;
+    /* display: flex; */
+}
+
+.center{
+    width: 100%;
+    height: 90%;
+    background-color: aqua;
+    display: flex;
+    
+}
+
+.wedminton{
+    width: 30%;
+    background-color: blueviolet;
+    height: 100%;
+}
+
+.crikate{
+    background-color: red;
+}
+
+.last{
+    display: flex;
+}
+.hocky{
+    background-color: mediumvioletred;
+}
+
+.kabbady{
+    background-color: rgb(4, 213, 255);
+}
